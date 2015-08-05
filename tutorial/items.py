@@ -12,3 +12,9 @@ class DmozItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     desc = scrapy.Field()
+
+class UpworkItem(scrapy.Item):
+	title = scrapy.Field()
+	description = scrapy.Field()
+	skills = scrapy.Field()
+	details_link = scrapy.Field()
